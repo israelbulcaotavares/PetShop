@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/SigninFragment">
+
+    <fragment
+        android:id="@+id/SigninFragment"
+        android:name="com.tavaresrit.petshop.fragments.sigin.SignInFragment"
+        android:label="@string/sigin_fragment_label"
+        tools:layout="@layout/fragment_sign_in">
+
+        <action
+            android:id="@+id/action_SignInFragment_to_SignUpFragment"
+            app:destination="@id/SignUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SignUpFragment"
+        android:name="com.tavaresrit.petshop.fragments.sigin.SignUpFragment"
+        android:label="@string/sign_up_fragment_label"
+        tools:layout="@layout/fragment_sign_up">
+
+        <action
+            android:id="@+id/action_SignUpFragment_to_SigInFragment"
+            app:destination="@id/SigninFragment" />
+    </fragment>
+</navigation>

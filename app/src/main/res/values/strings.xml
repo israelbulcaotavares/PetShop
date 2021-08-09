@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PetShop</string>
+    <string name="action_settings">Sair</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="sigin_fragment_label">Entrar</string>
+    <string name="sign_up_fragment_label">Cadastro</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="main_fragment_label">Feed</string>
+    <string name="new_post_fragment_label">Postar</string>
+     <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="title_activity_post_details">PostDetailsActivity</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec condimentum ante, quis mattis mi. Proin ut rhoncus libero, ac euismod neque. Ut suscipit, enim a facilisis consequat, orci lacus venenatis orci, at ultricies orci nulla sed ex. In condimentum viverra velit, eget feugiat libero imperdiet vel. Aenean pretium, lectus vitae bibendum bibendum, diam turpis convallis eros, quis tristique leo sapien at ipsum. Praesent eu odio id nulla lobortis auctor. Donec eget dolor eget nisl euismod commodo vel a lacus. Quisque ut justo vitae urna pharetra accumsan. Etiam dignissim neque iaculis mauris viverra, blandit rhoncus odio porttitor. Phasellus nibh arcu.</string>
+
+</resources>
