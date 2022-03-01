@@ -13,6 +13,10 @@ public class Firebase {
         return databaseReference.child("user-posts").child(getUid());
     }
 
+    public static Query getQueryPosts(DatabaseReference databaseReference){
+        return databaseReference.child("posts");
+    }
+
     public static String getUid() {
         return FirebaseAuth.getInstance().getCurrentUser().getUid();
     }

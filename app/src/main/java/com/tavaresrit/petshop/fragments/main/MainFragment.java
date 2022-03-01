@@ -79,7 +79,7 @@ public class MainFragment extends Fragment  {
         binding.recyclerPostList.setLayoutManager(mManager);
 
         // Configura FirebaseRecyclerAdapter com a consulta
-        Query postsQuery = Firebase.getQuery(mDatabase);
+        Query postsQuery = Firebase.getQueryPosts(mDatabase);
 
         //Adapter do Firebase
         FirebaseRecyclerOptions options = new FirebaseRecyclerOptions.Builder<Post>()
